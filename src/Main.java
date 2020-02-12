@@ -39,6 +39,11 @@ public class Main {
 		System.out.println("Introduce el codigo del jugador");
 		boolean existejugador=false;
 		do {
+			System.out.println("1. Alta Jugador");
+			System.out.println("2. Baja Jugador");
+			System.out.println("3. Listado de equipos por division");
+			System.out.println("4. Listado de equipos por conferenciar");
+			System.out.println("5. Salir");
 			String codigo = sc.nextLine();
 			if(controladorbd.ExisteJugador(codigo)==false) {
 				System.out.println("Este codigo del jugador ya esta en uso, introduzca otro");
@@ -66,14 +71,4 @@ public class Main {
 			}
 		}while(controladorbd.ExisteEquipo(equipo)==false);
 	}
-	
-	public static void MostrarMenu() {
-		System.out.println("1. Alta Jugador");
-		System.out.println("2. Baja Jugador");
-		System.out.println("3. Listado de equipos por division");
-		System.out.println("4. Listado de equipos por conferenciar");
-		System.out.println("5. Salir");
-
-	}
-
 }
