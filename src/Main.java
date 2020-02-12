@@ -7,6 +7,7 @@ public class Main {
 		Scanner sn = new Scanner(System.in);
 		Scanner sc = new Scanner(System.in);
 		BDController controladorbd = new BDController();
+		System.out.println("Cambio para github practica 8");
 		int opc=0;
 		do {
 			switch(opc) {
