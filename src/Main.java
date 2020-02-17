@@ -20,10 +20,10 @@ public class Main {
 					System.out.println("Introduce el codigo 3 del jugador");
 				break;
 				case 4:
-					System.out.println("Introduce el codigo 4 del jugador");
+					System.out.println("");
 				break;
 				case 5:
-					System.out.println("Introduce el codigo 5 del jugador");
+					System.out.println("");
 				break;
 				
 			}
