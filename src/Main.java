@@ -12,19 +12,19 @@ public class Main {
 		do {
 			switch(opc) {
 				case 1:
-					
+					System.out.println("Introduce el codigo 1 del jugador");
 				break;
 				case 2:
-					
+					System.out.println("Introduce el codigo 2 del jugador");
 				break;
 				case 3:
-					
+					System.out.println("Introduce el codigo 3 del jugador");
 				break;
 				case 4:
-					
+					System.out.println("");
 				break;
 				case 5:
-					
+					System.out.println("");
 				break;
 				
 			}
